@@ -28,6 +28,8 @@ namespace ServiceLocator.UWP
         /// </summary>
         public App()
         {
+            Locator.Instance.Add<ITextToSpeech, TextToSpeechService>();
+
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

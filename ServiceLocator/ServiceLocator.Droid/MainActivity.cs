@@ -16,7 +16,9 @@ namespace ServiceLocator.Droid
 		{
 			base.OnCreate (bundle);
 
-			global::Xamarin.Forms.Forms.Init (this, bundle);
+            Locator.Instance.Add<ITextToSpeech, TextToSpeechService>();
+
+            global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new ServiceLocator.App ());
 		}
 	}

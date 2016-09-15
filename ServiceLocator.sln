@@ -18,6 +18,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ServiceLocator\ServiceLocator\ServiceLocator.projitems*{2e76be82-8b9b-4681-a5cd-3990882a3caa}*SharedItemsImports = 13
+		ServiceLocator\ServiceLocator\ServiceLocator.projitems*{e04f6cd6-23e2-44a0-ac0e-91b133556729}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
